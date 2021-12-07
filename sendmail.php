@@ -13,7 +13,7 @@ $mail->IsHTML(true);
 // От кого письмо
 $mail->setForm('info@fls.guru', 'Фрилансер по жизни!');
 // Кому отправить
-$mail->addAddress('skliz-33@mail.ru');
+$mail->addAddress('masik475@Gmail.com','skliz-33@mail.ru')
 // Тема письма
 $mail->Subject = 'Привет, это фрилансер по жизни';
 
